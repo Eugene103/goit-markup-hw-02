@@ -1,0 +1,174 @@
+:root {
+  /* Fonts*/
+  --main-tex: "Roboto" sans-serif;
+  --second-tex: "Raleway" sans-serif;
+
+  /* Colors*/
+  --color-primary: #4d5ae5;
+  --color-pressed-st: #404bbf;
+  --color-dark: #2e2f42;
+  --color-success: #31d0aa;
+  --color-text: #434455;
+  --color-subtle-text: #8e8f99;
+  --color-accent: #e7e9fc;
+  --color-light: #f4f4fd;
+  --color-overlay: #2e2f42;
+  --color-hero-im-bk: #2e2f42;
+  --color-white-bk: #ffffff;
+  --color-modal-bk: #fcfcfc;
+}
+body {
+  background-color: var(--color-white-bk);
+  font-family: var(--main-tex);
+}
+.list {
+  list-style: none;
+}
+.title {
+  color: var(--color-dark);
+}
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-dark);
+}
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
+}
+/*header*/
+.logo {
+  color: var(--color-dark);
+  text-decoration: none;
+  font-family: var(--second-tex);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-item {
+  color: var(--color-primary);
+}
+.menu-nav .link,
+.contacks .link {
+  color: var(--color-dark);
+  text-decoration: none;
+}
+.menu-nav .link:hover,
+.menu-nav .link:focus,
+.contacks .link:hover,
+.contacks .link:focus {
+  color: var(--color-pressed-st);
+}
+.menu-nav {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+}
+.contacks {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+}
+/*index.html*/
+/*Hero image*/
+.page {
+  background-color: var(--color-dark);
+  color: var(--color-white-bk);
+}
+.page-but {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+}
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1, 07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
+}
+/*section 1*/
+
+/*section 2*/
+
+/*section 3*/
+.team {
+  background-color: var(--color-light);
+}
+/*footer*/
+.footer {
+  background-color: var(--color-dark);
+}
+.logo-fr {
+  color: var(--color-light);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.fr-text {
+  color: var(--color-light);
+}
+/*portfolio.html*/
+.desc {
+  text-decoration: none;
+}
+/*filters*/
+.filters .btn {
+  background-color: var(--color-light);
+  color: var(--color-primary);
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.filters .btn:hover,
+.filters .btn:focus {
+  background-color: var(--color-pressed-st);
+  color: var(--color-white-bk);
+}
