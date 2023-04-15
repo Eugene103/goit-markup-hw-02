@@ -56,8 +56,8 @@ h3 {
   letter-spacing: 0.02em;
 }
 body {
-  font-family: var(--main-tex);
-  color: var(--second-tex);
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: var(--color-white-bk);
 }
 /*header*/
