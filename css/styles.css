@@ -43,17 +43,15 @@ body {
 .logo-item {
   color: #2e2f42;
 }
+/* menu*/
 .menu-nav .link {
   color: #2e2f42;
   text-decoration: none;
 }
-.contacks .link {
-  text-decoration: none;
-}
 .menu-nav .link:hover,
 .menu-nav .link:focus,
-.contacks .link:hover,
-.contacks .link:focus {
+.contacts .link:hover,
+.contacts .link:focus {
   color: var(--color-pressed-st);
 }
 .menu-nav {
@@ -64,15 +62,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address {
-  font-style: normal;
+/* contacts*/
+.contacts .link {
+  text-decoration: none;
   color: #434455;
 }
-
-.contacks {
-  color: #434455;
-  font-family: var(--main-tex);
+.address {
   font-style: normal;
+}
+
+.contacts {
+  font-family: var(--main-tex);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
