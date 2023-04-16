@@ -43,9 +43,11 @@ body {
 .logo-item {
   color: #2e2f42;
 }
-.menu-nav .link,
-.contacks .link {
+.menu-nav .link {
   color: #2e2f42;
+  text-decoration: none;
+}
+.contacks .link {
   text-decoration: none;
 }
 .menu-nav .link:hover,
