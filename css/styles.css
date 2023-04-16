@@ -63,6 +63,7 @@ body {
   letter-spacing: 0.02em;
 }
 .contacks {
+  color: #434455;
   font-family: var(--main-tex);
   font-style: normal;
   font-weight: 400;
