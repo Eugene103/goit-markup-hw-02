@@ -22,7 +22,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-tex);
   color: #434455;
   background-color: var(--color-white-bk);
 }
@@ -41,14 +41,12 @@ body {
   text-transform: uppercase;
 }
 .logo-item {
-  font-family: var(--second-tex);
   color: #2e2f42;
 }
 .menu-nav .link,
 .contacks .link {
-  color: #2e2f42;
+  color: #434455;
   text-decoration: none;
-  font-style: normal;
 }
 .menu-nav .link:hover,
 .menu-nav .link:focus,
@@ -185,7 +183,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-item {
+.logo-fr .logo-item {
   color: #f4f4fd;
 }
 .fr-text {
