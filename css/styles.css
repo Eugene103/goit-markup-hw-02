@@ -28,9 +28,9 @@ body {
 }
 /*header*/
 .logo {
-  color: #2e2f42;
+  font-family: var(--second-tex);
+  color: #4d5ae5;
   text-decoration: none;
-  font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -41,12 +41,14 @@ body {
   text-transform: uppercase;
 }
 .logo-item {
-  color: #4d5ae5;
+  font-family: var(--second-tex);
+  color: #2e2f42;
 }
 .menu-nav .link,
 .contacks .link {
-  color: #434455;
+  color: #2e2f42;
   text-decoration: none;
+  font-style: normal;
 }
 .menu-nav .link:hover,
 .menu-nav .link:focus,
@@ -85,7 +87,7 @@ body {
   color: var(--color-white-bk);
 }
 .page-but {
-  font-family: "Roboto" sans-serif;
+  font-family: var(--main-tex);
   background-color: var(--color-primary);
   color: white;
   border: none;
@@ -112,7 +114,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.title-fr .paragraf {
+.list-ab .paragraf {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -130,6 +132,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 /*section 3*/
 .title-team {
@@ -162,12 +165,16 @@ body {
 .team {
   background-color: var(--color-light);
 }
+.team-li-item {
+  background-color: white;
+}
 /*footer*/
 .footer {
   background-color: var(--color-dark);
 }
 .logo-fr {
-  font-family: "Raleway" sans-serif;
+  color: #4d5ae5;
+  font-family: var(--second-tex);
   text-decoration: none;
   font-style: normal;
   font-weight: 800;
@@ -178,7 +185,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-item-st {
+.logo-item {
   color: #f4f4fd;
 }
 .fr-text {
@@ -192,7 +199,7 @@ body {
 .filters .btn {
   background-color: var(--color-light);
   color: var(--color-primary);
-  font-family: "Roboto" sans-serif;
+  font-family: var(--main-tex);
   border: none;
   font-style: normal;
   font-weight: 500;
@@ -202,6 +209,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .filters .btn:hover,
 .filters .btn:focus {
@@ -211,16 +219,16 @@ body {
 /*row*/
 .title-desc {
   color: #2e2f42;
-  font-family: "Roboto" sans-serif;
+  font-family: var(--main-tex);
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.decs .paragraf {
+.desc .paragraf {
   color: #434455;
-  font-family: "Roboto" sans-serif;
+  font-family: var(--main-tex);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
