@@ -1,7 +1,7 @@
 :root {
   /* Fonts*/
-  --main-tex: "Roboto" sans-serif;
-  --second-tex: "Raleway" sans-serif;
+  --main-tex: "Roboto", sans-serif;
+  --second-tex: "Raleway", sans-serif;
 
   /* Colors*/
   --color-primary: #4d5ae5;
@@ -22,14 +22,12 @@
 }
 
 body {
-  font-family: "Roboto" sans-serif;
   font-family: var(--main-tex);
   color: #434455;
   background-color: var(--color-white-bk);
 }
 /*header*/
 .logo {
-  font-family: "Raleway" sans-serif;
   font-family: var(--second-tex);
   color: #4d5ae5;
   text-decoration: none;
@@ -47,11 +45,8 @@ body {
 }
 .menu-nav .link,
 .contacks .link {
-  color: #434455;
-  text-decoration: none;
-}
-.menu-nav .item {
   color: #2e2f42;
+  text-decoration: none;
 }
 .menu-nav .link:hover,
 .menu-nav .link:focus,
@@ -90,7 +85,6 @@ body {
   color: var(--color-white-bk);
 }
 .page-but {
-  font-family: "Roboto" sans-serif;
   font-family: var(--main-tex);
   background-color: var(--color-primary);
   color: white;
@@ -178,7 +172,6 @@ body {
 }
 .logo-fr {
   color: #4d5ae5;
-  font-family: "Raleway" sans-serif;
   font-family: var(--second-tex);
   text-decoration: none;
   font-style: normal;
@@ -204,7 +197,7 @@ body {
 .filters .btn {
   background-color: var(--color-light);
   color: var(--color-primary);
-  font-family: "Roboto", sans-serif;
+
   font-family: var(--main-tex);
   border: none;
   font-style: normal;
